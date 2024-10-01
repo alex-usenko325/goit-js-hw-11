@@ -40,7 +40,7 @@ form.addEventListener('submit', async event => {
   } catch (error) {
     loader.style.display = 'none';
     iziToast.error({
-      message: 'Something went wrong, please try again later.',
+      message: 'Something went wrong. Please try again later!',
       position: 'topRight',
       class: 'custom-iziToast-error',
     });
