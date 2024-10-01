@@ -1,4 +1,3 @@
-/* Загальні стилі */
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -122,7 +121,6 @@ input[type='text']:focus {
   margin-left: 8px;
 }
 
-/* Основні стилі галереї */
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -134,13 +132,12 @@ input[type='text']:focus {
   box-sizing: border-box;
 }
 
-/* Стиль елементів галереї */
 .gallery-item {
   flex: 1 1 calc((100% / 3) - 24px);
   border: 1px solid #808080;
   box-sizing: border-box;
 }
-/* Попередній перегляд зображення */
+
 .preview-image {
   width: 100%;
   height: 152px;
@@ -153,7 +150,6 @@ input[type='text']:focus {
   transform: scale(1.1);
 }
 
-/* Стилізація інформації про зображення */
 .info {
   height: 48px;
   display: flex;
@@ -168,13 +164,11 @@ input[type='text']:focus {
   color: #333;
 }
 
-/* Вирівнювання та відступи для інформації */
 .info p {
   margin-right: 10px;
   font-size: 14px;
 }
 
-/* Налаштування іконки лайтбоксу */
 .sl-overlay {
   background: rgba(46, 47, 66, 0.8) !important;
 }
@@ -191,11 +185,11 @@ input[type='text']:focus {
 }
 
 .custom-iziToast-info {
-  border-bottom: 2px solid #b8e3ff !important; /* Блакитна рамка */
+  border-bottom: 2px solid #b8e3ff !important;
   border-radius: 4px !important;
   padding: 20px !important;
   width: 251px !important;
-  background: #09f !important; /* Блакитний фон */
+  background: #09f !important;
   display: flex;
   align-items: center;
   fill: #fafafb !important;
@@ -210,7 +204,7 @@ input[type='text']:focus {
 }
 
 .custom-iziToast-error .iziToast-icon {
-  color: #fafafb !important; /* Змінити колір іконки, якщо це потрібно */
+  color: #fafafb !important;
 }
 
 .iziToast-texts {
